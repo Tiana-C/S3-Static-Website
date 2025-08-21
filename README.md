@@ -18,9 +18,39 @@ It includes:
 ## Create a S3 bucket
 - Go to S3 > Create bucket
 - Bucket type- General purpose
-- Bucket name- DemoSiteBucket
+- Bucket name- tianasdemobucket
 - ACLs Disabled
 - Uncheck 'Block all public access' and acknowledge
 - Enable bucket versioning if you wish to restore previous iterations of the site
 - Leave deafult settings for default encryption
-- Leave object lock as diabled if not using versioning 
+- Leave object lock as diabled if not using versioning
+- Click create bucket
+
+## Upload website files to S3
+- Create Index.html file in TextEdit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tiana’s Cool Demo Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hello from AWS S3!</h1>
+  <p>This is a static website hosted on Amazon S3.</p>
+</body>
+</html>
+
+- Create style.css file in TextEdit
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+h1 {
+  color: #2b6cb0;
+}
+
+- Upload the Index.html and style.css file to the S3 bucket
+
