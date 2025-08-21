@@ -53,4 +53,12 @@ h1 {
 }
 
 - Upload the Index.html and style.css file to the S3 bucket
+- In the S3 bucket click the Properties tab
+- Scroll down to Static website hosting
+- Click enable
+- Click Host a static website
+- For index document enter 'Index.html'
+- Leave error document blank
+- Leave redirection rules blank
+- Save changes
 
