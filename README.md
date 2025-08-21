@@ -6,3 +6,10 @@ It includes:
 - An S3 bucket for static content
 - S3 bucket website hosting configuration
 - Public access policies
+
+## Services Used
+- **Amazon S3** – Static website hosting
+- **IAM** – Access control
+
+## Architecture
+- End User > S3 bucket
