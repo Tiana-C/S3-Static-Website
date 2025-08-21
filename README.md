@@ -13,3 +13,8 @@ It includes:
 
 ## Architecture
 - End User > S3 bucket
+
+## Deployment 
+# Create a S3 bucket
+- Go to S3 > Create bucket
+- 
