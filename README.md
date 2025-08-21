@@ -15,6 +15,12 @@ It includes:
 - End User > S3 bucket
 
 ## Deployment 
-# Create a S3 bucket
+## Create a S3 bucket
 - Go to S3 > Create bucket
-- 
+- Bucket type- General purpose
+- Bucket name- DemoSiteBucket
+- ACLs Disabled
+- Uncheck 'Block all public access' and acknowledge
+- Enable bucket versioning if you wish to restore previous iterations of the site
+- Leave deafult settings for default encryption
+- Leave object lock as diabled if not using versioning 
