@@ -30,6 +30,7 @@ It includes:
 - Create Index.html file in TextEdit
 <br></br>
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png)
+<br></br>
 -Create style.css file in TextEdit
 <br></br>
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png)
