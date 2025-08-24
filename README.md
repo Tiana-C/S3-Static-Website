@@ -28,10 +28,10 @@ It includes:
 
 ## Upload website files to S3
 - Create Index.html file in TextEdit
-![Index.html file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png))
+![Index.html file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png)])
 
 -Create style.css file in TextEdit
-![stlye.css file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png))
+![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png)
 
 - Upload the Index.html and style.css file to the S3 bucket
 - In the S3 bucket click the Properties tab
