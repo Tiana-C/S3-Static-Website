@@ -28,8 +28,8 @@ It includes:
 
 ## Upload website files to S3
 - Create Index.html file in TextEdit
-![Index.html file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png)])
-
+<br></br>
+![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png)
 -Create style.css file in TextEdit
 <br></br>
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png)
@@ -47,8 +47,8 @@ It includes:
 ## Change S3 bucket policy
 - Click on the permissions tab
 - Edit Bucket polixy
-![Bucket Policy]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/bucketpolicy.png))
-
+<br></br>
+![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/bucketpolicy.png)
 ## Static website is now hosted on an S3 bucket
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png)
 
