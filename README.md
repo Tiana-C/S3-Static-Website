@@ -31,6 +31,7 @@ It includes:
 ![Index.html file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png)])
 
 -Create style.css file in TextEdit
+<br></br>
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png)
 
 - Upload the Index.html and style.css file to the S3 bucket
