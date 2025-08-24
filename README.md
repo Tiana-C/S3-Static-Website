@@ -65,15 +65,18 @@ h1 {
 ## Change S3 bucket policy
 - Click on the permissions tab
 - Edit Bucket polixy
-{
+aws s3api put-bucket-policy \
+  --bucket tianasdemobucket \
+  --policy '{
     "Version": "2012-10-17",
     "Statement": [
-        {
-            "Sid": "Statement1",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:*",
-            "Resource": "arn:aws:s3:::tianasdemobucket/*"
-        }
+      {
+        "Sid": "PublicReadGetObject",
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::tianasdemobucket/*"
+      }
     ]
-}
+  }'
+
