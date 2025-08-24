@@ -80,3 +80,6 @@ aws s3api put-bucket-policy \
     ]
   }'
 
+## Static website is now hosted on an S3 bucket
+![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png)
+
