@@ -1,4 +1,4 @@
-# AWS Project: Static Website Hosting on S3
+# Static Website Hosting on S3
 
 ## Overview
 This project demonstrates how to host a **static website on Amazon S3** using the AWS Free Tier.  
