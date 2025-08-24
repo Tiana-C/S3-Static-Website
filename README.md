@@ -28,29 +28,10 @@ It includes:
 
 ## Upload website files to S3
 - Create Index.html file in TextEdit
+![Index.html file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/htmldemo.png))
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Tiana’s Cool Demo Site</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Hello from AWS S3!</h1>
-  <p>This is a static website hosted on Amazon S3.</p>
-</body>
-</html>
-
-- Create style.css file in TextEdit
-
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-}
-h1 {
-  color: #2b6cb0;
-}
+-Create style.css file in TextEdit
+![stlye.css file]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/cssdemo.png))
 
 - Upload the Index.html and style.css file to the S3 bucket
 - In the S3 bucket click the Properties tab
@@ -65,20 +46,7 @@ h1 {
 ## Change S3 bucket policy
 - Click on the permissions tab
 - Edit Bucket polixy
-aws s3api put-bucket-policy \
-  --bucket tianasdemobucket \
-  --policy '{
-    "Version": "2012-10-17",
-    "Statement": [
-      {
-        "Sid": "PublicReadGetObject",
-        "Effect": "Allow",
-        "Principal": "*",
-        "Action": "s3:GetObject",
-        "Resource": "arn:aws:s3:::tianasdemobucket/*"
-      }
-    ]
-  }'
+![Bucket Policy]([https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png](https://github.com/Tiana-C/S3-Static-Website/blob/main/bucketpolicy.png))
 
 ## Static website is now hosted on an S3 bucket
 ![Final Website](https://github.com/Tiana-C/S3-Static-Website/blob/main/Static%20Site%20on%20S3.png)
